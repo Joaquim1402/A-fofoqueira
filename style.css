@@ -62,7 +62,7 @@ main{
 section{
 	margin-bottom: 1rem;
 	background-color: #8B008B;
-	padding:1rem ;
+	padding:2rem ;
 }
 
 section h2{
@@ -87,4 +87,40 @@ footer{
 	padding: 1rem;
 	text-align: center;
 
+}
+
+
+/* FORMULÁRIO DE CONTATO */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+form button {
+    background-color: rgb(207, 0, 207);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #580303;
+}
+
+
+.paragrafo-sobre{
+	color: #FFFFFF;
 }
